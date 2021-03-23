@@ -2,7 +2,7 @@ rm -rf /opt/ANDRAX/wapiti
 
 mkdir /opt/ANDRAX/wapiti
 
-cd -Rf andraxbin/* /opt/ANDRAX/bin
+cp -Rf andraxbin/* /opt/ANDRAX/bin
 
 chmod -R 755 /opt/ANDRAX/bin
 
