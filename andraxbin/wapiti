@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source /opt/ANDRAX/wapiti/wapitienv/bin/activate
+
+wapiti "$@"
+
+deactivate
